@@ -1,0 +1,47 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Main
+
+{
+  public static void main (String[] args) 
+  {
+  Scanner sc=new Scanner(System.in);
+System.out.print("enter the a value");
+int a =sc.nextInt();
+System.out.print("enter the b value");
+int b =sc.nextInt();
+ System.out.println("enter the opeartor (+,-,*,/):");
+ char operator = sc.next().charAt(0);
+   int c;
+    switch(operator)
+    { 
+      case '+':
+      c=a+b;
+      break;
+      case '-':
+      c=a-b;
+      break;
+      case '*':
+      c=a*b;
+      break;
+      case '/':
+      if(b==0){
+      System.out.println("Infinity");
+      }
+    else{
+
+      c=a/b;
+      System.out.println(+c);
+     break;
+    }
+ 
+      default:
+            System.out.println("enter the wrong operator");
+            return;
+
+    }
+    
+    System.out.println(a+ " " +operator+ "  " +b+ ": " +c);
+  }
+}
