@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AlphabetOrNot
+public class Alphabet_Not
 {
     public static void main(String args[])
     {
@@ -10,11 +10,11 @@ public class AlphabetOrNot
         cha = scan.next().charAt(0);
 	    if((cha>='a' && cha<='z') || (cha>='A' && cha<='Z'))
         {
-            System.out.print(ch + " is an Alphabet");
+            System.out.print( "Alphabet");
         }
         else
         {
-            System.out.print(ch + " is not an Alphabet");
+            System.out.print("Not");
         }
     }
 }
