@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Vowels
+class Vowels
  {
   public static void main(String[] args)
    {
-     int l=0;
+     int i=0;
     char a;
     Scanner s=new Scanner(System.in);
-    System.out.println("enter the alphabet");
+    System.out.println("enter the alphabit");
     a=s.next().charAt(0);
     switch(a)
     {
@@ -20,15 +20,15 @@ public class Vowels
       case 'I':
       case 'O':
       case 'U':
-      l++;
+      i++;
     }
-     if(l==1)
+     if(i==1)
      {
-       System.out.println("alphabat  is vowle");
+       System.out.println("alphabit  is vowle");
      }
      else if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
      {
-      System.out.println("alphabat  is consonant");
+      System.out.println("alphabit  is consonant");
      }
      else 
      {
