@@ -5,11 +5,11 @@ public class Larger_number
     {
         int a, b, c;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the first number:");
+        System.out.print(" ");
         a = sc.nextInt();
-        System.out.print("Enter the second number:");
+        System.out.print(" ");
         b = sc.nextInt();
-        System.out.print("Enter the third number:");
+        System.out.print(" ");
         c = sc.nextInt();
         if(a > b && a > c)
         {
