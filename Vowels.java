@@ -3,7 +3,7 @@ public class Vowels
  {
   public static void main(String[] args)
    {
-     int y=0;
+     int l=0;
     char a;
     Scanner s=new Scanner(System.in);
     System.out.println("enter the alphabet");
@@ -20,9 +20,9 @@ public class Vowels
       case 'I':
       case 'O':
       case 'U':
-      y++;
+      l++;
     }
-     if(y==1)
+     if(l==1)
      {
        System.out.println("alphabat  is vowle");
      }
