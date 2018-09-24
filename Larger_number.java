@@ -3,25 +3,25 @@ public class Larger_number
 {
     public static void main(String[] args) 
     {
-        int a, b, c;
+        int l, m, n;
         Scanner sc = new Scanner(System.in);
         System.out.print(" ");
-        a = sc.nextInt();
+        l = sc.nextInt();
         System.out.print(" ");
-        b = sc.nextInt();
+        m = sc.nextInt();
         System.out.print(" ");
-        c = sc.nextInt();
-        if(a > b && a > c)
+        n = sc.nextInt();
+        if(l > m && l > n)
         {
-            System.out.println("Largest number is:"+a);
+            System.out.println("Largest number is:"+l);
         }
-        else if(b > c)
+        else if(m > n)
         {
-            System.out.println("Largest number is:"+b);
+            System.out.println("Largest number is:"+m);
         }
         else
         {
-            System.out.println("Largest number is:"+c);
+            System.out.println("Largest number is:"+n);
         }
  
     }
