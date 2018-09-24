@@ -10,15 +10,15 @@ public class Positive
         y = s.nextInt();
         if(y > 0)
         {
-            System.out.println("The given number "+y+" is Positive");
+            System.out.println("Positive");
         }
         else if(y < 0)
         {
-            System.out.println("The given number "+y+" is Negative");
+            System.out.println("Negative");
         }
         else
         {
-            System.out.println("The given number "+y+" is neither Positive nor Negative ");
+            System.out.println(" neither Positive nor Negative ");
         }
     }
 }
