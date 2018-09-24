@@ -3,19 +3,20 @@ public class Leap_Year
 {
     public static void main(String args[])
     {
-        Scanner s = new Scanner(System.in);
+        int yr;
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter any year:");
-        int year = s.nextInt();
+        yr = scan.nextInt();
         boolean flag = false;
-        if(year % 400 == 0)
+        if(yr % 400 == 0)
         {
             flag = true;
         }
-        else if (year % 100 == 0)
+        else if (yr % 100 == 0)
         {
             flag = false;
         }
-        else if(year % 4 == 0)
+        else if(yr % 4 == 0)
         {
             flag = true;
         }
