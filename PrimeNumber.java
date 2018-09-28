@@ -3,19 +3,19 @@ public class PrimeNumber
 { 
                 public static void main(String args[]) 
              { 
-                  int num,b,c; 
+                  int num,n,o; 
                   Scanner scan=new Scanner(System.in); 
                   System.out.println("Enter A Number"); 
                   tin =scan.nextInt(); 
-                  b=1; 
-                  c=0; 
-                   while(b<= tin) 
+                  n=1; 
+                  o=0; 
+                   while(n<= tin) 
                       { 
-                          if((tin%b)==0) 
-                             c=c+1; 
-                             b++; 
+                          if((tin%n)==0) 
+                             o=o+1; 
+                             n++; 
                       } 
-                       if(c==2) 
+                       if(o==2) 
                        System.out.println(tin +" is a prime number"); 
                        else 
                        System.out.println(tin +" is not a prime number"); 
