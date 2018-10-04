@@ -6,8 +6,8 @@ public class ReversePlayer
 	{
 		System.out.println(" ");
 		
-		Scanner read = new Scanner(System.in);
-		String str = read.nextLine();
+		Scanner xy = new Scanner(System.in);
+		String str = xy.nextLine();
 		String reverse = " ";
 		
 		
