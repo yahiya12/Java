@@ -1,12 +1,12 @@
 import java.util.*;
 import java.lang.*;
 import java.util.ArrayList;
-public class Vowelreverse{
+public class vowrev{
      public static void main(String arg[]){
       int a;
-     String y;
+     String h;
      Scanner s=new Scanner(System.in);
-     y=s.next();
+     h=s.next();
      String j=h.replaceAll("[AEIOUaeiou]", "");
      String n=new StringBuilder(j).reverse().toString();
      System.out.println(n);
