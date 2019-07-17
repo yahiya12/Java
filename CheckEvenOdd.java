@@ -1,24 +1,8 @@
-import java.util.Scanner;
-
-public class CheckEvenOdd
-{
-  public static void main(String args[])
-  {
-    int e;
-    System.out.println(" ");
-    Scanner input = new Scanner(System.in);
-    e = input.nextInt();
-    if(e<0)
-    {
-    System.out.println("Invalid");
-    }
-    else if(e%2==0)
-    {
-    System.out.println("Even");
-    }
-    else
-    {
-        System.out.println("Odd");
-    }
-  }
-}
+num=int(input())
+if num>=0:
+    if ((num%2)==0):
+        print('Even')
+    else:
+        print('Odd')
+if num<0:
+    print('invalid')
